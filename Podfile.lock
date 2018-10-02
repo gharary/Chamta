@@ -1,0 +1,119 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - Crashlytics (3.10.2):
+    - Fabric (~> 1.7.7)
+  - Fabric (1.7.7)
+  - Firebase/Core (5.2.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.2.0):
+    - FirebaseCore (= 5.0.3)
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.3):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (3.1.0):
+    - FirebaseCore (~> 5.0)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - ImageSlideshow (1.6.0):
+    - ImageSlideshow/Core (= 1.6.0)
+  - ImageSlideshow/Alamofire (1.6.0):
+    - AlamofireImage (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.6.0)
+  - ImageSlideshow/Kingfisher (1.6.0):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - IQKeyboardManagerSwift (6.0.3)
+  - Kingfisher (4.8.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - OneSignal (2.8.5)
+  - SearchTextField (1.2.0)
+  - SideMenu (4.0.0)
+  - SkeletonView (1.2.1)
+  - SkyFloatingLabelTextField (3.5.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - AlamofireImage (~> 3.3)
+  - Crashlytics (~> 3.10.2)
+  - Fabric (~> 1.7.7)
+  - Firebase/Core
+  - ImageSlideshow (~> 1.4)
+  - ImageSlideshow/Alamofire
+  - ImageSlideshow/Kingfisher
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 4.0)
+  - OneSignal (< 3.0, >= 2.6.2)
+  - SearchTextField
+  - SideMenu
+  - SkeletonView
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Crashlytics
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - GoogleToolboxForMac
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - nanopb
+    - OneSignal
+    - SearchTextField
+    - SideMenu
+    - SkeletonView
+    - SkyFloatingLabelTextField
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: 12ef3375791136be10cc8685fa8074ec56a64491
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  Crashlytics: 0360624eea1c978a743feddb2fb1ef8b37fb7a0d
+  Fabric: bda89e242bce1b7b8ab264248cf3407774ce0095
+  Firebase: 25ed0412036d7d008568d1fb4d2e9d81ea8a0a2c
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseCore: a3c87242451633fff8490183898075ce77d168d2
+  FirebaseInstanceID: 05d779cbb97bd5bd5c51a38a903fc9cfe1b2454a
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  ImageSlideshow: 9a1038da5669d2d337ae5ecda2ee8282ff14e9c5
+  IQKeyboardManagerSwift: 04e8679f85e496bb2c474eeb9284052f1b3c391c
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  OneSignal: 42dae269c7eca517aee34963820e1eb922390031
+  SearchTextField: a5bb7e4c33affadb115afdbe8100d84ef10a8024
+  SideMenu: 70ee5657df63ec3382660ec4ef470bf1cf5db07d
+  SkeletonView: 98a31213f9282076149e6eb23f46734604f02086
+  SkyFloatingLabelTextField: 4cbeece9c3aae97c6019d8fae511cb5b755874f7
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 0ee074c9286dfcba6b36ff59d4c73438aaf0e50c
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vm1-6w-Ykh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IRANSansMobile.ttf">
+            <string>IRANSansMobile</string>
+        </array>
+        <array key="IRANSansMobile_Bold.ttf">
+            <string>IRANSansMobile-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--قوانین-->
+        <scene sceneID="B3v-Gr-4th">
+            <objects>
+                <viewController id="fI6-Gk-TRP" customClass="LawsVC" customModule="Chamta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ApQ-hq-xhY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="قوانین استفاده از برنامه:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWg-59-mRE">
+                                <rect key="frame" x="198" y="80" width="161" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4s2-pu-0Ic"/>
+                                    <constraint firstAttribute="width" constant="161" id="i9M-ZR-2zA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANSansMobile-Bold" family="IRANSansMobile" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Vu-uo-yTV">
+                                <rect key="frame" x="16" y="118" width="343" height="529"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Vu-uo-yTV" firstAttribute="top" secondItem="PWg-59-mRE" secondAttribute="bottom" constant="8" id="AHC-dR-Nrx"/>
+                            <constraint firstItem="6Vu-uo-yTV" firstAttribute="leading" secondItem="YMB-ZT-daB" secondAttribute="leading" constant="16" id="Kuw-lX-sYt"/>
+                            <constraint firstItem="YMB-ZT-daB" firstAttribute="trailing" secondItem="6Vu-uo-yTV" secondAttribute="trailing" constant="16" id="am5-ga-5CP"/>
+                            <constraint firstItem="YMB-ZT-daB" firstAttribute="bottom" secondItem="6Vu-uo-yTV" secondAttribute="bottom" constant="20" id="pyI-rV-Mxi"/>
+                            <constraint firstItem="YMB-ZT-daB" firstAttribute="trailing" secondItem="PWg-59-mRE" secondAttribute="trailing" constant="16" id="qe3-hB-b4v"/>
+                            <constraint firstItem="PWg-59-mRE" firstAttribute="top" secondItem="YMB-ZT-daB" secondAttribute="top" constant="16" id="tTv-uq-IKk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YMB-ZT-daB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="قوانین" id="agn-cF-c3M">
+                        <barButtonItem key="leftBarButtonItem" image="back" id="X6h-zj-so5">
+                            <connections>
+                                <action selector="backBtn:" destination="fI6-Gk-TRP" id="jCf-oc-2Gy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lawTextView" destination="6Vu-uo-yTV" id="JFE-7X-7al"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BOr-oc-bf0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157.59999999999999" y="194.75262368815595"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WUq-Zp-hGP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vm1-6w-Ykh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="j32-gu-jeU">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fI6-Gk-TRP" kind="relationship" relationship="rootViewController" id="wja-Dx-Ymz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tv3-CY-U72" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-594" y="195"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="16" height="29"/>
+    </resources>
+</document>

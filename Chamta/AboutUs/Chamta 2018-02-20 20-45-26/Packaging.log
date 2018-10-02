@@ -1,0 +1,1424 @@
+2018-02-20 17:15:14 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f9bddb619e0; archive(resolved)='<IDEArchive: 0x7f9bfac21de0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team(resolved)='<IDEProvisioningBasicTeam 0x7f9bdc528af0: teamID: TTH7P953CP, teamName: Mohammad  Gharari>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f9bddb619e0; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team='<IDEProvisioningBasicTeam 0x7f9bdc528af0: teamID: TTH7P953CP, teamName: Mohammad  Gharari>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f9bfb90be80; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team='<IDEProvisioningBasicTeam 0x7f9bdc528af0: teamID: TTH7P953CP, teamName: Mohammad  Gharari>'>
+	<IDEDistributionContext: 0x7f9bf01a5010; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team='<IDEProvisioningBasicTeam 0x7f9bdc528af0: teamID: TTH7P953CP, teamName: Mohammad  Gharari>'>
+	<IDEDistributionContext: 0x7f9bddb7c060; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team='<IDEProvisioningBasicTeam 0x7f9bdc528af0: teamID: TTH7P953CP, teamName: Mohammad  Gharari>'>
+	<IDEDistributionContext: 0x7f9bdd9a72f0; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team='<IDEProvisioningBasicTeam 0x7f9bdc528af0: teamID: TTH7P953CP, teamName: Mohammad  Gharari>'>
+	<IDEDistributionContext: 0x7f9bfb9218c0; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team='<IDEProvisioningBasicTeam 0x7f9bdc528af0: teamID: TTH7P953CP, teamName: Mohammad  Gharari>'>
+	<IDEDistributionContext: 0x7f9bf8d13a80; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team='<IDEProvisioningBasicTeam 0x7f9bdc528af0: teamID: TTH7P953CP, teamName: Mohammad  Gharari>'>
+	<IDEDistributionContext: 0x7f9bfb92d920; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team='<IDEProvisioningBasicTeam 0x7f9bdc528af0: teamID: TTH7P953CP, teamName: Mohammad  Gharari>'>
+	<IDEDistributionContext: 0x7f9bfb92b8f0; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team='<IDEProvisioningBasicTeam 0x7f9bdc528af0: teamID: TTH7P953CP, teamName: Mohammad  Gharari>'>
+	<IDEDistributionContext: 0x7f9bf145f650; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f9bdc7d1510>', team='(null)'>
+	<IDEDistributionContext: 0x7f9bf100d710; archive = '<IDEArchive: 0x7f9bfac21de0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f9bddb619e0>
+2018-02-20 17:15:14 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-02-20 17:15:14 +0000  Processing step: IDEDistributionCopyItemStep
+2018-02-20 17:15:14 +0000  Running /usr/bin/ditto '-V' '/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app'
+2018-02-20 17:15:14 +0000  >>> Copying /Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app 
+2018-02-20 17:15:14 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-02-20 17:15:14 +0000  74973 bytes for ./_CodeSignature/CodeResources
+2018-02-20 17:15:14 +0000  copying file ./ProductDetail.storyboardc/UINavigationController-Dbg-z6-Sdv.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  2563 bytes for ./ProductDetail.storyboardc/UINavigationController-Dbg-z6-Sdv.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./ProductDetail.storyboardc/UINavigationController-Dbg-z6-Sdv.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  2563 bytes for ./ProductDetail.storyboardc/UINavigationController-Dbg-z6-Sdv.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./ProductDetail.storyboardc/qw9-Rv-txu-view-HqL-NC-in3.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  10442 bytes for ./ProductDetail.storyboardc/qw9-Rv-txu-view-HqL-NC-in3.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./ProductDetail.storyboardc/qw9-Rv-txu-view-HqL-NC-in3.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  10562 bytes for ./ProductDetail.storyboardc/qw9-Rv-txu-view-HqL-NC-in3.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./ProductDetail.storyboardc/UIViewController-sM2-9B-1c1.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./ProductDetail.storyboardc/UIViewController-sM2-9B-1c1.nib/objects-11.0+.nib
+copying file ./ProductDetail.storyboardc/UIViewController-sM2-9B-1c1.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./ProductDetail.storyboardc/UIViewController-sM2-9B-1c1.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./ProductDetail.storyboardc/productDetail.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  1859 bytes for ./ProductDetail.storyboardc/productDetail.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./ProductDetail.storyboardc/productDetail.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  1859 bytes for ./ProductDetail.storyboardc/productDetail.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./ProductDetail.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  537 bytes for ./ProductDetail.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/5a1-Yo-hE7-view-ldK-FY-5WH.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  6486 bytes for ./Register.storyboardc/5a1-Yo-hE7-view-ldK-FY-5WH.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/5a1-Yo-hE7-view-ldK-FY-5WH.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  6621 bytes for ./Register.storyboardc/5a1-Yo-hE7-view-ldK-FY-5WH.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/UIViewController-5a1-Yo-hE7.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  1357 bytes for ./Register.storyboardc/UIViewController-5a1-Yo-hE7.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/UIViewController-5a1-Yo-hE7.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  1357 bytes for ./Register.storyboardc/UIViewController-5a1-Yo-hE7.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/UIViewController-U52-Go-Z5X.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Register.storyboardc/UIViewController-U52-Go-Z5X.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/UIViewController-U52-Go-Z5X.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Register.storyboardc/UIViewController-U52-Go-Z5X.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/LoginSignupVC.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  2581 bytes for ./Register.storyboardc/LoginSignupVC.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/LoginSignupVC.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  2579 bytes for ./Register.storyboardc/LoginSignupVC.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/UIViewController-wVu-Sq-jaL.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  1278 bytes for ./Register.storyboardc/UIViewController-wVu-Sq-jaL.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/UIViewController-wVu-Sq-jaL.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  1278 bytes for ./Register.storyboardc/UIViewController-wVu-Sq-jaL.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/9Jr-rq-3DE-view-vcv-Pi-mXi.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  5534 bytes for ./Register.storyboardc/9Jr-rq-3DE-view-vcv-Pi-mXi.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/9Jr-rq-3DE-view-vcv-Pi-mXi.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  5665 bytes for ./Register.storyboardc/9Jr-rq-3DE-view-vcv-Pi-mXi.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/registerPhone.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  1736 bytes for ./Register.storyboardc/registerPhone.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/registerPhone.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  1736 bytes for ./Register.storyboardc/registerPhone.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/wVu-Sq-jaL-view-FzR-Pw-CqP.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  7697 bytes for ./Register.storyboardc/wVu-Sq-jaL-view-FzR-Pw-CqP.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/wVu-Sq-jaL-view-FzR-Pw-CqP.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  7822 bytes for ./Register.storyboardc/wVu-Sq-jaL-view-FzR-Pw-CqP.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Register.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  579 bytes for ./Register.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./IRANSansMobile_Black.ttf ... 
+2018-02-20 17:15:14 +0000  91856 bytes for ./IRANSansMobile_Black.ttf
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UIViewController-Bzk-92-cPt.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Profile.storyboardc/UIViewController-Bzk-92-cPt.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UIViewController-Bzk-92-cPt.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Profile.storyboardc/UIViewController-Bzk-92-cPt.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/CR4-a2-iJ9-view-rou-Zy-Dy5.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  7866 bytes for ./Profile.storyboardc/CR4-a2-iJ9-view-rou-Zy-Dy5.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/CR4-a2-iJ9-view-rou-Zy-Dy5.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  8007 bytes for ./Profile.storyboardc/CR4-a2-iJ9-view-rou-Zy-Dy5.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UIViewController-s4S-tU-dVs.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Profile.storyboardc/UIViewController-s4S-tU-dVs.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UIViewController-s4S-tU-dVs.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Profile.storyboardc/UIViewController-s4S-tU-dVs.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/NVm-HL-Xff-view-hMx-Zh-L3b.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  4140 bytes for ./Profile.storyboardc/NVm-HL-Xff-view-hMx-Zh-L3b.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/NVm-HL-Xff-view-hMx-Zh-L3b.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  4277 bytes for ./Profile.storyboardc/NVm-HL-Xff-view-hMx-Zh-L3b.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UITableViewController-NVm-HL-Xff.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  988 bytes for ./Profile.storyboardc/UITableViewController-NVm-HL-Xff.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UITableViewController-NVm-HL-Xff.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  988 bytes for ./Profile.storyboardc/UITableViewController-NVm-HL-Xff.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/Rdk-YB-ICc-view-tsd-bh-5s9.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  7187 bytes for ./Profile.storyboardc/Rdk-YB-ICc-view-tsd-bh-5s9.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/Rdk-YB-ICc-view-tsd-bh-5s9.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  7320 bytes for ./Profile.storyboardc/Rdk-YB-ICc-view-tsd-bh-5s9.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/profileVC.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  1961 bytes for ./Profile.storyboardc/profileVC.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/profileVC.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  1961 bytes for ./Profile.storyboardc/profileVC.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UITableViewController-CR4-a2-iJ9.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  1726 bytes for ./Profile.storyboardc/UITableViewController-CR4-a2-iJ9.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UITableViewController-CR4-a2-iJ9.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  1726 bytes for ./Profile.storyboardc/UITableViewController-CR4-a2-iJ9.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UITableViewController-Rdk-YB-ICc.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  1373 bytes for ./Profile.storyboardc/UITableViewController-Rdk-YB-ICc.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UITableViewController-Rdk-YB-ICc.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  1373 bytes for ./Profile.storyboardc/UITableViewController-Rdk-YB-ICc.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UINavigationController-UXu-1g-Psv.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  2724 bytes for ./Profile.storyboardc/UINavigationController-UXu-1g-Psv.nib/objects-11.0+.nib
+copying file ./Profile.storyboardc/UINavigationController-UXu-1g-Psv.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  2727 bytes for ./Profile.storyboardc/UINavigationController-UXu-1g-Psv.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UITableViewController-igQ-EN-zGQ.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  1579 bytes for ./Profile.storyboardc/UITableViewController-igQ-EN-zGQ.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UITableViewController-igQ-EN-zGQ.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  1579 bytes for ./Profile.storyboardc/UITableViewController-igQ-EN-zGQ.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UZD-7f-0rd-view-E8B-IC-WKI.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  10299 bytes for ./Profile.storyboardc/UZD-7f-0rd-view-E8B-IC-WKI.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/UZD-7f-0rd-view-E8B-IC-WKI.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  10408 bytes for ./Profile.storyboardc/UZD-7f-0rd-view-E8B-IC-WKI.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  949 bytes for ./Profile.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/igQ-EN-zGQ-view-0fW-21-gU9.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  7374 bytes for ./Profile.storyboardc/igQ-EN-zGQ-view-0fW-21-gU9.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Profile.storyboardc/igQ-EN-zGQ-view-0fW-21-gU9.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  7493 bytes for ./Profile.storyboardc/igQ-EN-zGQ-view-0fW-21-gU9.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./AppIcon20x20@2x.png ... 
+2018-02-20 17:15:14 +0000  3066 bytes for ./AppIcon20x20@2x.png
+2018-02-20 17:15:14 +0000  copying file ./Chamta ... 
+2018-02-20 17:15:14 +0000  16514816 bytes for ./Chamta
+2018-02-20 17:15:14 +0000  copying file ./FontAwesome.otf ... 
+134808 bytes for ./FontAwesome.otf
+copying file ./IRANSansMobile_Medium.ttf ... 
+2018-02-20 17:15:14 +0000  92928 bytes for ./IRANSansMobile_Medium.ttf
+2018-02-20 17:15:14 +0000  copying file ./AppIcon20x20@3x.png ... 
+2018-02-20 17:15:14 +0000  6056 bytes for ./AppIcon20x20@3x.png
+2018-02-20 17:15:14 +0000  copying file ./Sale.storyboardc/UIViewController-K70-dj-bx1.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Sale.storyboardc/UIViewController-K70-dj-bx1.nib
+2018-02-20 17:15:14 +0000  copying file ./Sale.storyboardc/UINavigationController-9z5-SX-iqC.nib ... 
+2018-02-20 17:15:14 +0000  2903 bytes for ./Sale.storyboardc/UINavigationController-9z5-SX-iqC.nib
+2018-02-20 17:15:14 +0000  copying file ./Sale.storyboardc/lfU-HO-U8v-view-itF-8s-a1o.nib ... 
+2018-02-20 17:15:14 +0000  6776 bytes for ./Sale.storyboardc/lfU-HO-U8v-view-itF-8s-a1o.nib
+copying file ./Sale.storyboardc/UIViewController-snR-kc-r8w.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Sale.storyboardc/UIViewController-snR-kc-r8w.nib
+2018-02-20 17:15:14 +0000  copying file ./Sale.storyboardc/UIViewController-cwX-BK-89K.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Sale.storyboardc/UIViewController-cwX-BK-89K.nib
+copying file ./Sale.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  740 bytes for ./Sale.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-02-20 17:15:14 +0000  20358 bytes for ./AppIcon60x60@2x.png
+2018-02-20 17:15:14 +0000  copying file ./IRANSansMobile_UltraLight.ttf ... 
+2018-02-20 17:15:14 +0000  95988 bytes for ./IRANSansMobile_UltraLight.ttf
+copying file ./AppIcon29x29@2x.png ... 
+2018-02-20 17:15:14 +0000  5746 bytes for ./AppIcon29x29@2x.png
+2018-02-20 17:15:14 +0000  copying file ./SideMenu.storyboardc/sideMenu.nib ... 
+2018-02-20 17:15:14 +0000  2682 bytes for ./SideMenu.storyboardc/sideMenu.nib
+copying file ./SideMenu.storyboardc/UIViewController-Gkd-Uy-GRb.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./SideMenu.storyboardc/UIViewController-Gkd-Uy-GRb.nib
+2018-02-20 17:15:14 +0000  copying file ./SideMenu.storyboardc/UIViewController-pig-ds-fn2.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./SideMenu.storyboardc/UIViewController-pig-ds-fn2.nib
+2018-02-20 17:15:14 +0000  copying file ./SideMenu.storyboardc/UIViewController-m0a-Ci-VU2.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./SideMenu.storyboardc/UIViewController-m0a-Ci-VU2.nib
+copying file ./SideMenu.storyboardc/UIViewController-MXU-KO-n5O.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./SideMenu.storyboardc/UIViewController-MXU-KO-n5O.nib
+copying file ./SideMenu.storyboardc/UIViewController-qpb-hM-3OY.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./SideMenu.storyboardc/UIViewController-qpb-hM-3OY.nib
+2018-02-20 17:15:14 +0000  copying file ./SideMenu.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  868 bytes for ./SideMenu.storyboardc/Info.plist
+copying file ./SideMenu.storyboardc/JyK-0u-yCh-view-6Vr-Sp-Isq.nib ... 
+2018-02-20 17:15:14 +0000  10762 bytes for ./SideMenu.storyboardc/JyK-0u-yCh-view-6Vr-Sp-Isq.nib
+2018-02-20 17:15:14 +0000  copying file ./AppIcon40x40@3x.png ... 
+2018-02-20 17:15:14 +0000  21046 bytes for ./AppIcon40x40@3x.png
+2018-02-20 17:15:14 +0000  copying file ./AppIcon40x40@2x.png ... 
+2018-02-20 17:15:14 +0000  9521 bytes for ./AppIcon40x40@2x.png
+2018-02-20 17:15:14 +0000  copying file ./AppIcon29x29@3x.png ... 
+2018-02-20 17:15:14 +0000  11582 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon60x60@3x.png ... 
+2018-02-20 17:15:14 +0000  42268 bytes for ./AppIcon60x60@3x.png
+2018-02-20 17:15:14 +0000  copying file ./Base.lproj/Main.storyboardc/CatVC.nib ... 
+2018-02-20 17:15:14 +0000  877 bytes for ./Base.lproj/Main.storyboardc/CatVC.nib
+copying file ./Base.lproj/Main.storyboardc/profileVC.nib ... 
+2018-02-20 17:15:14 +0000  881 bytes for ./Base.lproj/Main.storyboardc/profileVC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  474 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/mainTabbarVC.nib ... 
+2018-02-20 17:15:14 +0000  2264 bytes for ./Base.lproj/Main.storyboardc/mainTabbarVC.nib
+2018-02-20 17:15:14 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  2330 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  2455 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2018-02-20 17:15:14 +0000  246 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Assets.car ... 
+2018-02-20 17:15:14 +0000  5467400 bytes for ./Assets.car
+copying file ./fontawesome-webfont.ttf ... 
+2018-02-20 17:15:14 +0000  142072 bytes for ./fontawesome-webfont.ttf
+copying file ./LawsSB.storyboardc/UINavigationController-vm1-6w-Ykh.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  2016 bytes for ./LawsSB.storyboardc/UINavigationController-vm1-6w-Ykh.nib/objects-11.0+.nib
+copying file ./LawsSB.storyboardc/UINavigationController-vm1-6w-Ykh.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  2016 bytes for ./LawsSB.storyboardc/UINavigationController-vm1-6w-Ykh.nib/runtime.nib
+copying file ./LawsSB.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  276 bytes for ./LawsSB.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./LawsSB.storyboardc/fI6-Gk-TRP-view-ApQ-hq-xhY.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  3718 bytes for ./LawsSB.storyboardc/fI6-Gk-TRP-view-ApQ-hq-xhY.nib/objects-11.0+.nib
+copying file ./LawsSB.storyboardc/fI6-Gk-TRP-view-ApQ-hq-xhY.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  3835 bytes for ./LawsSB.storyboardc/fI6-Gk-TRP-view-ApQ-hq-xhY.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./IRANSansMobile.ttf ... 
+2018-02-20 17:15:14 +0000  95008 bytes for ./IRANSansMobile.ttf
+copying file ./AboutUs.storyboardc/YRU-U5-3Rx-view-KbP-8V-AnB.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  5169 bytes for ./AboutUs.storyboardc/YRU-U5-3Rx-view-KbP-8V-AnB.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./AboutUs.storyboardc/YRU-U5-3Rx-view-KbP-8V-AnB.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  5287 bytes for ./AboutUs.storyboardc/YRU-U5-3Rx-view-KbP-8V-AnB.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./AboutUs.storyboardc/aboutUs.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  1419 bytes for ./AboutUs.storyboardc/aboutUs.nib/objects-11.0+.nib
+copying file ./AboutUs.storyboardc/aboutUs.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  1419 bytes for ./AboutUs.storyboardc/aboutUs.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./AboutUs.storyboardc/UINavigationController-OEL-qX-bBq.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  2125 bytes for ./AboutUs.storyboardc/UINavigationController-OEL-qX-bBq.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./AboutUs.storyboardc/UINavigationController-OEL-qX-bBq.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  2125 bytes for ./AboutUs.storyboardc/UINavigationController-OEL-qX-bBq.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./AboutUs.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  296 bytes for ./AboutUs.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Products.storyboardc/UIViewController-Xzg-vc-d1c.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Products.storyboardc/UIViewController-Xzg-vc-d1c.nib
+copying file ./Products.storyboardc/UINavigationController-zRe-t9-EVj.nib ... 
+2018-02-20 17:15:14 +0000  2995 bytes for ./Products.storyboardc/UINavigationController-zRe-t9-EVj.nib
+copying file ./Products.storyboardc/productVC.nib ... 
+2018-02-20 17:15:14 +0000  2221 bytes for ./Products.storyboardc/productVC.nib
+copying file ./Products.storyboardc/UIViewController-HqV-IM-sEr.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Products.storyboardc/UIViewController-HqV-IM-sEr.nib
+2018-02-20 17:15:14 +0000  copying file ./Products.storyboardc/5PI-7H-KlE-view-ZZk-bm-UNs.nib ... 
+2018-02-20 17:15:14 +0000  6769 bytes for ./Products.storyboardc/5PI-7H-KlE-view-ZZk-bm-UNs.nib
+copying file ./Products.storyboardc/UIViewController-Uzi-ay-HdQ.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Products.storyboardc/UIViewController-Uzi-ay-HdQ.nib
+2018-02-20 17:15:14 +0000  copying file ./Products.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  766 bytes for ./Products.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Pishnehad.storyboardc/bLC-fc-FPQ-view-DQA-XH-ebp.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  7270 bytes for ./Pishnehad.storyboardc/bLC-fc-FPQ-view-DQA-XH-ebp.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Pishnehad.storyboardc/bLC-fc-FPQ-view-DQA-XH-ebp.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  7393 bytes for ./Pishnehad.storyboardc/bLC-fc-FPQ-view-DQA-XH-ebp.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./Pishnehad.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  276 bytes for ./Pishnehad.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Pishnehad.storyboardc/UINavigationController-zfO-A4-Geg.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  1990 bytes for ./Pishnehad.storyboardc/UINavigationController-zfO-A4-Geg.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./Pishnehad.storyboardc/UINavigationController-zfO-A4-Geg.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  1990 bytes for ./Pishnehad.storyboardc/UINavigationController-zfO-A4-Geg.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/UIViewController-nX1-Rt-S0G.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  979 bytes for ./ShoppingList.storyboardc/UIViewController-nX1-Rt-S0G.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/UIViewController-nX1-Rt-S0G.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  979 bytes for ./ShoppingList.storyboardc/UIViewController-nX1-Rt-S0G.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/nX1-Rt-S0G-view-cI4-Kx-PXc.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  18450 bytes for ./ShoppingList.storyboardc/nX1-Rt-S0G-view-cI4-Kx-PXc.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/nX1-Rt-S0G-view-cI4-Kx-PXc.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  18572 bytes for ./ShoppingList.storyboardc/nX1-Rt-S0G-view-cI4-Kx-PXc.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/UIViewController-TRv-aU-Lto.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./ShoppingList.storyboardc/UIViewController-TRv-aU-Lto.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/UIViewController-TRv-aU-Lto.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./ShoppingList.storyboardc/UIViewController-TRv-aU-Lto.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/icL-kO-Cdr-view-dy5-TD-Ed5.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  9484 bytes for ./ShoppingList.storyboardc/icL-kO-Cdr-view-dy5-TD-Ed5.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/icL-kO-Cdr-view-dy5-TD-Ed5.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  9597 bytes for ./ShoppingList.storyboardc/icL-kO-Cdr-view-dy5-TD-Ed5.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/UINavigationController-e4y-ii-vWV.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:14 +0000  2597 bytes for ./ShoppingList.storyboardc/UINavigationController-e4y-ii-vWV.nib/objects-11.0+.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/UINavigationController-e4y-ii-vWV.nib/runtime.nib ... 
+2018-02-20 17:15:14 +0000  2601 bytes for ./ShoppingList.storyboardc/UINavigationController-e4y-ii-vWV.nib/runtime.nib
+2018-02-20 17:15:14 +0000  copying file ./ShoppingList.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  570 bytes for ./ShoppingList.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Category.storyboardc/UIViewController-cu5-q0-pOF.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Category.storyboardc/UIViewController-cu5-q0-pOF.nib
+2018-02-20 17:15:14 +0000  copying file ./Category.storyboardc/XGU-Nn-Tqu-view-1HT-a3-VvZ.nib ... 
+2018-02-20 17:15:14 +0000  5460 bytes for ./Category.storyboardc/XGU-Nn-Tqu-view-1HT-a3-VvZ.nib
+2018-02-20 17:15:14 +0000  copying file ./Category.storyboardc/UICollectionViewController-XGU-Nn-Tqu.nib ... 
+2018-02-20 17:15:14 +0000  1424 bytes for ./Category.storyboardc/UICollectionViewController-XGU-Nn-Tqu.nib
+2018-02-20 17:15:14 +0000  copying file ./Category.storyboardc/UIViewController-YYn-qp-w95.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Category.storyboardc/UIViewController-YYn-qp-w95.nib
+2018-02-20 17:15:14 +0000  copying file ./Category.storyboardc/UIViewController-aaQ-p1-v8h.nib ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Category.storyboardc/UIViewController-aaQ-p1-v8h.nib
+2018-02-20 17:15:14 +0000  copying file ./Category.storyboardc/UINavigationController-ewL-gH-9ZD.nib ... 
+2018-02-20 17:15:14 +0000  3231 bytes for ./Category.storyboardc/UINavigationController-ewL-gH-9ZD.nib
+2018-02-20 17:15:14 +0000  copying file ./Category.storyboardc/uk7-uR-1HI-view-rDi-kF-WYH.nib ... 
+2018-02-20 17:15:14 +0000  5298 bytes for ./Category.storyboardc/uk7-uR-1HI-view-rDi-kF-WYH.nib
+2018-02-20 17:15:14 +0000  copying file ./Category.storyboardc/Info.plist ... 
+2018-02-20 17:15:14 +0000  821 bytes for ./Category.storyboardc/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-02-20 17:15:14 +0000  258272 bytes for ./Frameworks/libswiftCoreImage.dylib
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-02-20 17:15:14 +0000  505792 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2018-02-20 17:15:14 +0000  68838960 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-02-20 17:15:14 +0000  1268848 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/AlamofireImage.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/AlamofireImage.framework/_CodeSignature/CodeResources
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/AlamofireImage.framework/AlamofireImage ... 
+2018-02-20 17:15:14 +0000  3228976 bytes for ./Frameworks/AlamofireImage.framework/AlamofireImage
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/AlamofireImage.framework/Info.plist ... 
+749 bytes for ./Frameworks/AlamofireImage.framework/Info.plist
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+789184 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/DLRadioButton.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:14 +0000  2202 bytes for ./Frameworks/DLRadioButton.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/DLRadioButton.framework/DLRadioButton ... 
+2018-02-20 17:15:14 +0000  448208 bytes for ./Frameworks/DLRadioButton.framework/DLRadioButton
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/DLRadioButton.framework/Info.plist ... 
+2018-02-20 17:15:14 +0000  748 bytes for ./Frameworks/DLRadioButton.framework/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-02-20 17:15:14 +0000  399392 bytes for ./Frameworks/libswiftMetal.dylib
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-02-20 17:15:14 +0000  2440736 bytes for ./Frameworks/libswiftDispatch.dylib
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+446400 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+257712 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/ImageSlideshow.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:14 +0000  3220 bytes for ./Frameworks/ImageSlideshow.framework/_CodeSignature/CodeResources
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/ImageSlideshow.framework/ImageSlideshow ... 
+2018-02-20 17:15:14 +0000  1861424 bytes for ./Frameworks/ImageSlideshow.framework/ImageSlideshow
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/ic_cross_white@3x.png ... 
+2018-02-20 17:15:14 +0000  345 bytes for ./Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/ic_cross_white@3x.png
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/ic_cross_white@2x.png ... 
+2018-02-20 17:15:14 +0000  271 bytes for ./Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/ic_cross_white@2x.png
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/Info.plist ... 
+2018-02-20 17:15:14 +0000  724 bytes for ./Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/ImageSlideshow.framework/Info.plist ... 
+2018-02-20 17:15:14 +0000  749 bytes for ./Frameworks/ImageSlideshow.framework/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-02-20 17:15:14 +0000  599280 bytes for ./Frameworks/libswiftDarwin.dylib
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:14 +0000  2202 bytes for ./Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac ... 
+2018-02-20 17:15:14 +0000  381696 bytes for ./Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac
+copying file ./Frameworks/GoogleToolboxForMac.framework/Info.plist ... 
+2018-02-20 17:15:14 +0000  761 bytes for ./Frameworks/GoogleToolboxForMac.framework/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:14 +0000  2202 bytes for ./Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/nanopb.framework/nanopb ... 
+2018-02-20 17:15:14 +0000  446000 bytes for ./Frameworks/nanopb.framework/nanopb
+copying file ./Frameworks/nanopb.framework/Info.plist ... 
+2018-02-20 17:15:14 +0000  733 bytes for ./Frameworks/nanopb.framework/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/SearchTextField.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:14 +0000  2202 bytes for ./Frameworks/SearchTextField.framework/_CodeSignature/CodeResources
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/SearchTextField.framework/SearchTextField ... 
+2018-02-20 17:15:14 +0000  1338944 bytes for ./Frameworks/SearchTextField.framework/SearchTextField
+copying file ./Frameworks/SearchTextField.framework/Info.plist ... 
+2018-02-20 17:15:14 +0000  753 bytes for ./Frameworks/SearchTextField.framework/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-02-20 17:15:14 +0000  310976 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:14 +0000  5102 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png ... 
+2018-02-20 17:15:14 +0000  1786 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png
+copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png ... 
+2018-02-20 17:15:14 +0000  2164 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png ... 
+2018-02-20 17:15:14 +0000  1769 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png
+copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png ... 
+2018-02-20 17:15:14 +0000  1844 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png ... 
+2018-02-20 17:15:14 +0000  1815 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png
+copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png ... 
+2018-02-20 17:15:14 +0000  2177 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png
+copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png ... 
+2018-02-20 17:15:14 +0000  1764 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png ... 
+2018-02-20 17:15:14 +0000  1793 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png
+copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift ... 
+2018-02-20 17:15:14 +0000  4395600 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/Info.plist ... 
+767 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/Info.plist
+copying file ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2018-02-20 17:15:14 +0000  797584 bytes for ./Frameworks/MBProgressHUD.framework/MBProgressHUD
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/MBProgressHUD.framework/Info.plist ... 
+747 bytes for ./Frameworks/MBProgressHUD.framework/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:14 +0000  2202 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2018-02-20 17:15:14 +0000  7091648 bytes for ./Frameworks/Alamofire.framework/Alamofire
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+739 bytes for ./Frameworks/Alamofire.framework/Info.plist
+copying file ./Frameworks/HKProgressHUD.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/HKProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/HKProgressHUD.framework/HKProgressHUD ... 
+2018-02-20 17:15:14 +0000  1407696 bytes for ./Frameworks/HKProgressHUD.framework/HKProgressHUD
+copying file ./Frameworks/HKProgressHUD.framework/Info.plist ... 
+2018-02-20 17:15:14 +0000  747 bytes for ./Frameworks/HKProgressHUD.framework/Info.plist
+copying file ./Frameworks/SkyFloatingLabelTextField.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:14 +0000  2202 bytes for ./Frameworks/SkyFloatingLabelTextField.framework/_CodeSignature/CodeResources
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/SkyFloatingLabelTextField.framework/SkyFloatingLabelTextField ... 
+2018-02-20 17:15:14 +0000  1289440 bytes for ./Frameworks/SkyFloatingLabelTextField.framework/SkyFloatingLabelTextField
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/SkyFloatingLabelTextField.framework/Info.plist ... 
+773 bytes for ./Frameworks/SkyFloatingLabelTextField.framework/Info.plist
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-02-20 17:15:14 +0000  27762880 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-02-20 17:15:14 +0000  copying file ./Frameworks/SideMenu.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SideMenu.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SideMenu.framework/SideMenu ... 
+1905888 bytes for ./Frameworks/SideMenu.framework/SideMenu
+copying file ./Frameworks/SideMenu.framework/Info.plist ... 
+737 bytes for ./Frameworks/SideMenu.framework/Info.plist
+2018-02-20 17:15:14 +0000  copying file ./IRANSansMobile_Bold.ttf ... 
+2018-02-20 17:15:14 +0000  94136 bytes for ./IRANSansMobile_Bold.ttf
+2018-02-20 17:15:14 +0000  copying file ./embedded.mobileprovision ... 
+2018-02-20 17:15:14 +0000  9652 bytes for ./embedded.mobileprovision
+2018-02-20 17:15:14 +0000  copying file ./MobileFonts.png ... 
+2018-02-20 17:15:14 +0000  110223 bytes for ./MobileFonts.png
+2018-02-20 17:15:14 +0000  copying file ./IRANSansMobile_Light.ttf ... 
+2018-02-20 17:15:14 +0000  97588 bytes for ./IRANSansMobile_Light.ttf
+2018-02-20 17:15:14 +0000  copying file ./Info.plist ... 
+2018-02-20 17:15:14 +0000  2053 bytes for ./Info.plist
+2018-02-20 17:15:14 +0000  copying file ./PkgInfo ... 
+2018-02-20 17:15:14 +0000  8 bytes for ./PkgInfo
+2018-02-20 17:15:14 +0000  
+2018-02-20 17:15:14 +0000  2018-02-20 17:15:14 +0000  /usr/bin/ditto exited with 0
+2018-02-20 17:15:14 +0000  
+
+2018-02-20 17:15:14 +0000  2018-02-20 17:15:14 +0000  Processing step: IDEDistributionEmbedProfileStep
+
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bfb8cc9c0 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f9bddb555f0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/Alamofire.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb77b40 'org.cocoapods.AlamofireImage' '<DVTFilePath:0x7f9bfacadc60:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/AlamofireImage.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bdc533180 'org.cocoapods.DLRadioButton' '<DVTFilePath:0x7f9bfb8f0080:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/DLRadioButton.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb79460 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7f9bddb2e620:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/GoogleToolboxForMac.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bfb8c64b0 'org.cocoapods.HKProgressHUD' '<DVTFilePath:0x7f9bddb5ac30:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/HKProgressHUD.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb84c60 'org.cocoapods.IQKeyboardManagerSwift' '<DVTFilePath:0x7f9bfba2eb50:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bdd032040 'org.cocoapods.ImageSlideshow' '<DVTFilePath:0x7f9bdd301b60:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/ImageSlideshow.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb88b80 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7f9bddb4f8c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/MBProgressHUD.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bdda0d7b0 'org.cocoapods.SearchTextField' '<DVTFilePath:0x7f9bddb3d350:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SearchTextField.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb8dcf0 'org.cocoapods.SideMenu' '<DVTFilePath:0x7f9bddb672c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SideMenu.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb972b0 'org.cocoapods.SkyFloatingLabelTextField' '<DVTFilePath:0x7f9bddb60420:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb8a390 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9bdc51c6f0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCore.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bdd0d14f0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9bdd0ae170:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb887b0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9bfb8a7350:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb8d6e0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9bdd317de0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bdc51b6f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9bddb2f8a0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bfb8c6520 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9bdd31c3c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb74a10 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9bddb66160:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb92a90 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9bdd30cd40:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftMetal.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bdc51bb90 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9bfacd7450:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb7da80 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9bddb42d00:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb773b0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9bfb88ee90:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bfb8c8940 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9bdd31b640:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftos.dylib'>'>
+2018-02-20 17:15:14 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9bddb879d0 'org.cocoapods.nanopb' '<DVTFilePath:0x7f9bddb37e50:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/nanopb.framework'>'>
+2018-02-20 17:15:14 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-02-20 17:15:14 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-02-20 17:15:14 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-02-20 17:15:14 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-02-20 17:15:14 +0000  Processing step: IDEDistributionSymbolsStep
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-02-20 17:15:14 +0000  Processing step: IDEDistributionAppThinningStep
+2018-02-20 17:15:15 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-02-20 17:15:15 +0000  Processing step: IDEDistributionODRStep
+2018-02-20 17:15:15 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bfb8cc9c0 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f9bddb555f0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/Alamofire.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb77b40 'org.cocoapods.AlamofireImage' '<DVTFilePath:0x7f9bfacadc60:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/AlamofireImage.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bdc533180 'org.cocoapods.DLRadioButton' '<DVTFilePath:0x7f9bfb8f0080:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/DLRadioButton.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb79460 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7f9bddb2e620:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/GoogleToolboxForMac.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bfb8c64b0 'org.cocoapods.HKProgressHUD' '<DVTFilePath:0x7f9bddb5ac30:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/HKProgressHUD.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb84c60 'org.cocoapods.IQKeyboardManagerSwift' '<DVTFilePath:0x7f9bfba2eb50:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bdd032040 'org.cocoapods.ImageSlideshow' '<DVTFilePath:0x7f9bdd301b60:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/ImageSlideshow.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb88b80 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7f9bddb4f8c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/MBProgressHUD.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bdda0d7b0 'org.cocoapods.SearchTextField' '<DVTFilePath:0x7f9bddb3d350:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SearchTextField.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb8dcf0 'org.cocoapods.SideMenu' '<DVTFilePath:0x7f9bddb672c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SideMenu.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb972b0 'org.cocoapods.SkyFloatingLabelTextField' '<DVTFilePath:0x7f9bddb60420:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb8a390 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9bdc51c6f0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCore.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bdd0d14f0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9bdd0ae170:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb887b0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9bfb8a7350:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb8d6e0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9bdd317de0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bdc51b6f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9bddb2f8a0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bfb8c6520 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9bdd31c3c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb74a10 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9bddb66160:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb92a90 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9bdd30cd40:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftMetal.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bdc51bb90 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9bfacd7450:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb7da80 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9bddb42d00:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb773b0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9bfb88ee90:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bfb8c8940 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9bdd31b640:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftos.dylib'>'>
+2018-02-20 17:15:15 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9bddb879d0 'org.cocoapods.nanopb' '<DVTFilePath:0x7f9bddb37e50:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/nanopb.framework'>'>
+2018-02-20 17:15:15 +0000  Running /usr/bin/xattr '-crs' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app'
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  /usr/bin/xattr exited with 0
+2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  Processing step: IDEDistributionCodesignStep
+2018-02-20 17:15:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bfb8cc9c0 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f9bddb555f0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/Alamofire.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bdd25e570>: {
+}
+2018-02-20 17:15:15 +0000  Entitlements for <IDEDistributionItem: 0x7f9bfb8cc9c0 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f9bddb555f0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/Alamofire.framework'>'>: {
+}
+2018-02-20 17:15:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bfb8cc9c0 'org.cocoapods.Alamofire' '<DVTFilePath:0x7f9bddb555f0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/Alamofire.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsdRP8ph
+2018-02-20 17:15:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsdRP8ph' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/Alamofire.framework'
+2018-02-20 17:15:15 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/Alamofire.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Alamofire]
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb77b40 'org.cocoapods.AlamofireImage' '<DVTFilePath:0x7f9bfacadc60:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/AlamofireImage.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf17a4b70>: {
+}
+2018-02-20 17:15:15 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb77b40 'org.cocoapods.AlamofireImage' '<DVTFilePath:0x7f9bfacadc60:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/AlamofireImage.framework'>'>: {
+}
+2018-02-20 17:15:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb77b40 'org.cocoapods.AlamofireImage' '<DVTFilePath:0x7f9bfacadc60:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/AlamofireImage.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsXZFFGS
+2018-02-20 17:15:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsXZFFGS' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/AlamofireImage.framework'
+2018-02-20 17:15:15 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/AlamofireImage.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.AlamofireImage]
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  /usr/bin/codesign exited with 0
+
+2018-02-20 17:15:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bdc533180 'org.cocoapods.DLRadioButton' '<DVTFilePath:0x7f9bfb8f0080:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/DLRadioButton.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bdd9eae80>: {
+}
+2018-02-20 17:15:15 +0000  Entitlements for <IDEDistributionItem: 0x7f9bdc533180 'org.cocoapods.DLRadioButton' '<DVTFilePath:0x7f9bfb8f0080:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/DLRadioButton.framework'>'>: {
+}
+2018-02-20 17:15:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bdc533180 'org.cocoapods.DLRadioButton' '<DVTFilePath:0x7f9bfb8f0080:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/DLRadioButton.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsvmhyz9
+2018-02-20 17:15:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsvmhyz9' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/DLRadioButton.framework'
+2018-02-20 17:15:15 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/DLRadioButton.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.DLRadioButton]
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb79460 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7f9bddb2e620:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/GoogleToolboxForMac.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf142b7e0>: {
+}
+2018-02-20 17:15:15 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb79460 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7f9bddb2e620:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/GoogleToolboxForMac.framework'>'>: {
+}
+2018-02-20 17:15:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb79460 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7f9bddb2e620:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/GoogleToolboxForMac.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsPuDf2r
+2018-02-20 17:15:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsPuDf2r' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/GoogleToolboxForMac.framework'
+2018-02-20 17:15:15 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/GoogleToolboxForMac.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.GoogleToolboxForMac]
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  2018-02-20 17:15:15 +0000  
+2018-02-20 17:15:15 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:15 +0000  
+
+2018-02-20 17:15:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bfb8c64b0 'org.cocoapods.HKProgressHUD' '<DVTFilePath:0x7f9bddb5ac30:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/HKProgressHUD.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bdd9a0f70>: {
+}
+2018-02-20 17:15:15 +0000  Entitlements for <IDEDistributionItem: 0x7f9bfb8c64b0 'org.cocoapods.HKProgressHUD' '<DVTFilePath:0x7f9bddb5ac30:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/HKProgressHUD.framework'>'>: {
+}
+2018-02-20 17:15:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bfb8c64b0 'org.cocoapods.HKProgressHUD' '<DVTFilePath:0x7f9bddb5ac30:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/HKProgressHUD.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsCbitcP
+2018-02-20 17:15:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsCbitcP' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/HKProgressHUD.framework'
+2018-02-20 17:15:16 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/HKProgressHUD.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.HKProgressHUD]
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb84c60 'org.cocoapods.IQKeyboardManagerSwift' '<DVTFilePath:0x7f9bfba2eb50:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bdd6c0d10>: {
+}
+2018-02-20 17:15:16 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb84c60 'org.cocoapods.IQKeyboardManagerSwift' '<DVTFilePath:0x7f9bfba2eb50:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework'>'>: {
+}
+2018-02-20 17:15:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb84c60 'org.cocoapods.IQKeyboardManagerSwift' '<DVTFilePath:0x7f9bfba2eb50:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlements0B3qig
+2018-02-20 17:15:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlements0B3qig' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework'
+2018-02-20 17:15:16 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.IQKeyboardManagerSwift]
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  /usr/bin/codesign exited with 0
+
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bdd032040 'org.cocoapods.ImageSlideshow' '<DVTFilePath:0x7f9bdd301b60:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/ImageSlideshow.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf144e320>: {
+}
+2018-02-20 17:15:16 +0000  Entitlements for <IDEDistributionItem: 0x7f9bdd032040 'org.cocoapods.ImageSlideshow' '<DVTFilePath:0x7f9bdd301b60:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/ImageSlideshow.framework'>'>: {
+}
+2018-02-20 17:15:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bdd032040 'org.cocoapods.ImageSlideshow' '<DVTFilePath:0x7f9bdd301b60:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/ImageSlideshow.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsyfWiOs
+2018-02-20 17:15:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsyfWiOs' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/ImageSlideshow.framework'
+2018-02-20 17:15:16 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/ImageSlideshow.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.ImageSlideshow]
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  /usr/bin/codesign exited with 0
+
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb88b80 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7f9bddb4f8c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/MBProgressHUD.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bdd9f0580>: {
+}
+2018-02-20 17:15:16 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb88b80 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7f9bddb4f8c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/MBProgressHUD.framework'>'>: {
+}
+2018-02-20 17:15:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb88b80 'org.cocoapods.MBProgressHUD' '<DVTFilePath:0x7f9bddb4f8c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/MBProgressHUD.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsZ793cv
+2018-02-20 17:15:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsZ793cv' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/MBProgressHUD.framework'
+2018-02-20 17:15:16 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/MBProgressHUD.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MBProgressHUD]
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bdda0d7b0 'org.cocoapods.SearchTextField' '<DVTFilePath:0x7f9bddb3d350:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SearchTextField.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf1449320>: {
+}
+2018-02-20 17:15:16 +0000  Entitlements for <IDEDistributionItem: 0x7f9bdda0d7b0 'org.cocoapods.SearchTextField' '<DVTFilePath:0x7f9bddb3d350:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SearchTextField.framework'>'>: {
+}
+2018-02-20 17:15:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bdda0d7b0 'org.cocoapods.SearchTextField' '<DVTFilePath:0x7f9bddb3d350:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SearchTextField.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsuapXmO
+2018-02-20 17:15:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsuapXmO' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/SearchTextField.framework'
+2018-02-20 17:15:16 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/SearchTextField.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SearchTextField]
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb8dcf0 'org.cocoapods.SideMenu' '<DVTFilePath:0x7f9bddb672c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SideMenu.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bfa8776a0>: {
+}
+2018-02-20 17:15:16 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb8dcf0 'org.cocoapods.SideMenu' '<DVTFilePath:0x7f9bddb672c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SideMenu.framework'>'>: {
+}
+2018-02-20 17:15:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb8dcf0 'org.cocoapods.SideMenu' '<DVTFilePath:0x7f9bddb672c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SideMenu.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsy05hgr
+2018-02-20 17:15:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsy05hgr' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/SideMenu.framework'
+2018-02-20 17:15:16 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/SideMenu.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SideMenu]
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb972b0 'org.cocoapods.SkyFloatingLabelTextField' '<DVTFilePath:0x7f9bddb60420:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bdd961110>: {
+}
+2018-02-20 17:15:16 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb972b0 'org.cocoapods.SkyFloatingLabelTextField' '<DVTFilePath:0x7f9bddb60420:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework'>'>: {
+}
+2018-02-20 17:15:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb972b0 'org.cocoapods.SkyFloatingLabelTextField' '<DVTFilePath:0x7f9bddb60420:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementssDMoIo
+2018-02-20 17:15:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementssDMoIo' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework'
+2018-02-20 17:15:16 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SkyFloatingLabelTextField]
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  2018-02-20 17:15:16 +0000  
+
+2018-02-20 17:15:16 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:16 +0000  
+2018-02-20 17:15:16 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb8a390 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9bdc51c6f0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf1436440>: {
+}
+2018-02-20 17:15:16 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb8a390 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9bdc51c6f0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-02-20 17:15:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb8a390 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7f9bdc51c6f0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlements16qIZg
+2018-02-20 17:15:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlements16qIZg' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftCore.dylib'
+2018-02-20 17:15:17 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bdd0d14f0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9bdd0ae170:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bdc6d1a20>: {
+}
+2018-02-20 17:15:17 +0000  Entitlements for <IDEDistributionItem: 0x7f9bdd0d14f0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9bdd0ae170:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-02-20 17:15:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bdd0d14f0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7f9bdd0ae170:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlements2Q68PV
+2018-02-20 17:15:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlements2Q68PV' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-02-20 17:15:17 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  /usr/bin/codesign exited with 0
+
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb887b0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9bfb8a7350:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf145e3b0>: {
+}
+2018-02-20 17:15:17 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb887b0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9bfb8a7350:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-02-20 17:15:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb887b0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7f9bfb8a7350:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsazxBdg
+2018-02-20 17:15:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsazxBdg' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-02-20 17:15:17 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb8d6e0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9bdd317de0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf145a660>: {
+}
+2018-02-20 17:15:17 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb8d6e0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9bdd317de0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-02-20 17:15:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb8d6e0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7f9bdd317de0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsCOVhDZ
+2018-02-20 17:15:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsCOVhDZ' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftCoreImage.dylib'
+2018-02-20 17:15:17 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bdc51b6f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9bddb2f8a0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf1467d30>: {
+}
+2018-02-20 17:15:17 +0000  Entitlements for <IDEDistributionItem: 0x7f9bdc51b6f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9bddb2f8a0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-02-20 17:15:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bdc51b6f0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7f9bddb2f8a0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsK8yyDI
+2018-02-20 17:15:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsK8yyDI' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftDarwin.dylib'
+2018-02-20 17:15:17 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  
+2018-02-20 17:15:17 +0000  2018-02-20 17:15:17 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:17 +0000  
+
+2018-02-20 17:15:17 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bfb8c6520 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9bdd31c3c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf1451e50>: {
+}
+2018-02-20 17:15:17 +0000  Entitlements for <IDEDistributionItem: 0x7f9bfb8c6520 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9bdd31c3c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-02-20 17:15:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bfb8c6520 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7f9bdd31c3c0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsh7c0Gb
+2018-02-20 17:15:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsh7c0Gb' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftDispatch.dylib'
+2018-02-20 17:15:18 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb74a10 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9bddb66160:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf1466ff0>: {
+}
+2018-02-20 17:15:18 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb74a10 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9bddb66160:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-02-20 17:15:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb74a10 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7f9bddb66160:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsgFXHND
+2018-02-20 17:15:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsgFXHND' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftFoundation.dylib'
+2018-02-20 17:15:18 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb92a90 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9bdd30cd40:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf146c090>: {
+}
+2018-02-20 17:15:18 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb92a90 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9bdd30cd40:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-02-20 17:15:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb92a90 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7f9bdd30cd40:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsAmSSvI
+2018-02-20 17:15:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsAmSSvI' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftMetal.dylib'
+2018-02-20 17:15:18 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bdc51bb90 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9bfacd7450:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf145cd20>: {
+}
+2018-02-20 17:15:18 +0000  Entitlements for <IDEDistributionItem: 0x7f9bdc51bb90 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9bfacd7450:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-02-20 17:15:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bdc51bb90 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7f9bfacd7450:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlements32znqq
+2018-02-20 17:15:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlements32znqq' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftObjectiveC.dylib'
+2018-02-20 17:15:18 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  /usr/bin/codesign exited with 02018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb7da80 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9bddb42d00:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bf143ed80>: {
+}
+2018-02-20 17:15:18 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb7da80 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9bddb42d00:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-02-20 17:15:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb7da80 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7f9bddb42d00:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsDUMifq
+2018-02-20 17:15:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsDUMifq' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftQuartzCore.dylib'
+2018-02-20 17:15:18 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  
+
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  2018-02-20 17:15:18 +0000  /usr/bin/codesign exited with 0
+
+2018-02-20 17:15:18 +0000  
+2018-02-20 17:15:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb773b0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9bfb88ee90:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftUIKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bdd25cf50>: {
+}
+2018-02-20 17:15:18 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb773b0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9bfb88ee90:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-02-20 17:15:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb773b0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7f9bfb88ee90:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsZ8oaSt
+2018-02-20 17:15:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsZ8oaSt' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftUIKit.dylib'
+2018-02-20 17:15:19 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  2018-02-20 17:15:19 +0000  
+
+2018-02-20 17:15:19 +0000  2018-02-20 17:15:19 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:19 +0000  
+
+2018-02-20 17:15:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bfb8c8940 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9bdd31b640:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bdd914110>: {
+}
+2018-02-20 17:15:19 +0000  Entitlements for <IDEDistributionItem: 0x7f9bfb8c8940 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9bdd31b640:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-02-20 17:15:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bfb8c8940 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7f9bdd31b640:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsB8ueBU
+2018-02-20 17:15:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsB8ueBU' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftos.dylib'
+2018-02-20 17:15:19 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-02-20 17:15:19 +0000  2018-02-20 17:15:19 +0000  
+
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  /usr/bin/codesign exited with 0
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bddb879d0 'org.cocoapods.nanopb' '<DVTFilePath:0x7f9bddb37e50:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/nanopb.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bddb0f460>: {
+}
+2018-02-20 17:15:19 +0000  Entitlements for <IDEDistributionItem: 0x7f9bddb879d0 'org.cocoapods.nanopb' '<DVTFilePath:0x7f9bddb37e50:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/nanopb.framework'>'>: {
+}
+2018-02-20 17:15:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bddb879d0 'org.cocoapods.nanopb' '<DVTFilePath:0x7f9bddb37e50:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app/Frameworks/nanopb.framework'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsy0SGCH
+2018-02-20 17:15:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsy0SGCH' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/nanopb.framework'
+2018-02-20 17:15:19 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app/Frameworks/nanopb.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.nanopb]
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  /usr/bin/codesign exited with 0
+
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f9bdd3f82b0 'com.gharary.Chamta' '<DVTFilePath:0x7f9bdd84a6e0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9bfad4aab0>: {
+}
+2018-02-20 17:15:19 +0000  Entitlements for <IDEDistributionItem: 0x7f9bdd3f82b0 'com.gharary.Chamta' '<DVTFilePath:0x7f9bdd84a6e0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app'>'>: {
+    "application-identifier" = "TTH7P953CP.com.gharary.Chamta";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = TTH7P953CP;
+    "get-task-allow" = 0;
+}
+2018-02-20 17:15:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9bdd3f82b0 'com.gharary.Chamta' '<DVTFilePath:0x7f9bdd84a6e0:'/Users/mohammadgharari/Library/Developer/Xcode/Archives/2018-02-20/Chamta 2-20-18, 8.43 PM.xcarchive/Products/Applications/Chamta.app'>'> to: /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsBTZKaG
+2018-02-20 17:15:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9925749F15AC28E325F6B4C2975852B53E3E94F2' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/entitlementsBTZKaG' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app'
+2018-02-20 17:15:19 +0000  /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root/Payload/Chamta.app: signed app bundle with Mach-O universal (armv7 arm64) [com.gharary.Chamta]
+2018-02-20 17:15:19 +0000  2018-02-20 17:15:19 +0000  
+
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  
+2018-02-20 17:15:19 +0000  2018-02-20 17:15:19 +0000  /usr/bin/codesign exited with 02018-02-20 17:15:19 +0000  
+
+
+2018-02-20 17:15:19 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-02-20 17:15:19 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-02-20 17:15:19 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root' '/var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Packages/Chamta.ipa'
+2018-02-20 17:15:19 +0000  >>> Copying /var/folders/l7/vkfz02pn0zs6vbz_g4vk0gqh0000gn/T/XcodeDistPipeline.dFp/Root 
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:19 +0000  74973 bytes for ./Payload/Chamta.app/_CodeSignature/CodeResources
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/ProductDetail.storyboardc/UINavigationController-Dbg-z6-Sdv.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  2563 bytes for ./Payload/Chamta.app/ProductDetail.storyboardc/UINavigationController-Dbg-z6-Sdv.nib/objects-11.0+.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/ProductDetail.storyboardc/UINavigationController-Dbg-z6-Sdv.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  2563 bytes for ./Payload/Chamta.app/ProductDetail.storyboardc/UINavigationController-Dbg-z6-Sdv.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/ProductDetail.storyboardc/qw9-Rv-txu-view-HqL-NC-in3.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  10442 bytes for ./Payload/Chamta.app/ProductDetail.storyboardc/qw9-Rv-txu-view-HqL-NC-in3.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/ProductDetail.storyboardc/qw9-Rv-txu-view-HqL-NC-in3.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  10562 bytes for ./Payload/Chamta.app/ProductDetail.storyboardc/qw9-Rv-txu-view-HqL-NC-in3.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/ProductDetail.storyboardc/UIViewController-sM2-9B-1c1.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  761 bytes for ./Payload/Chamta.app/ProductDetail.storyboardc/UIViewController-sM2-9B-1c1.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/ProductDetail.storyboardc/UIViewController-sM2-9B-1c1.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  761 bytes for ./Payload/Chamta.app/ProductDetail.storyboardc/UIViewController-sM2-9B-1c1.nib/runtime.nib
+copying file ./Payload/Chamta.app/ProductDetail.storyboardc/productDetail.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  1859 bytes for ./Payload/Chamta.app/ProductDetail.storyboardc/productDetail.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/ProductDetail.storyboardc/productDetail.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  1859 bytes for ./Payload/Chamta.app/ProductDetail.storyboardc/productDetail.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/ProductDetail.storyboardc/Info.plist ... 
+537 bytes for ./Payload/Chamta.app/ProductDetail.storyboardc/Info.plist
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Register.storyboardc/5a1-Yo-hE7-view-ldK-FY-5WH.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  6486 bytes for ./Payload/Chamta.app/Register.storyboardc/5a1-Yo-hE7-view-ldK-FY-5WH.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Register.storyboardc/5a1-Yo-hE7-view-ldK-FY-5WH.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  6621 bytes for ./Payload/Chamta.app/Register.storyboardc/5a1-Yo-hE7-view-ldK-FY-5WH.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Register.storyboardc/UIViewController-5a1-Yo-hE7.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  1357 bytes for ./Payload/Chamta.app/Register.storyboardc/UIViewController-5a1-Yo-hE7.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Register.storyboardc/UIViewController-5a1-Yo-hE7.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  1357 bytes for ./Payload/Chamta.app/Register.storyboardc/UIViewController-5a1-Yo-hE7.nib/runtime.nib
+copying file ./Payload/Chamta.app/Register.storyboardc/UIViewController-U52-Go-Z5X.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  761 bytes for ./Payload/Chamta.app/Register.storyboardc/UIViewController-U52-Go-Z5X.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Register.storyboardc/UIViewController-U52-Go-Z5X.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  761 bytes for ./Payload/Chamta.app/Register.storyboardc/UIViewController-U52-Go-Z5X.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Register.storyboardc/LoginSignupVC.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  2581 bytes for ./Payload/Chamta.app/Register.storyboardc/LoginSignupVC.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Register.storyboardc/LoginSignupVC.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  2579 bytes for ./Payload/Chamta.app/Register.storyboardc/LoginSignupVC.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Register.storyboardc/UIViewController-wVu-Sq-jaL.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  1278 bytes for ./Payload/Chamta.app/Register.storyboardc/UIViewController-wVu-Sq-jaL.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Register.storyboardc/UIViewController-wVu-Sq-jaL.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  1278 bytes for ./Payload/Chamta.app/Register.storyboardc/UIViewController-wVu-Sq-jaL.nib/runtime.nib
+copying file ./Payload/Chamta.app/Register.storyboardc/9Jr-rq-3DE-view-vcv-Pi-mXi.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  5534 bytes for ./Payload/Chamta.app/Register.storyboardc/9Jr-rq-3DE-view-vcv-Pi-mXi.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Register.storyboardc/9Jr-rq-3DE-view-vcv-Pi-mXi.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  5665 bytes for ./Payload/Chamta.app/Register.storyboardc/9Jr-rq-3DE-view-vcv-Pi-mXi.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Register.storyboardc/registerPhone.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  1736 bytes for ./Payload/Chamta.app/Register.storyboardc/registerPhone.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Register.storyboardc/registerPhone.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  1736 bytes for ./Payload/Chamta.app/Register.storyboardc/registerPhone.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Register.storyboardc/wVu-Sq-jaL-view-FzR-Pw-CqP.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  7697 bytes for ./Payload/Chamta.app/Register.storyboardc/wVu-Sq-jaL-view-FzR-Pw-CqP.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Register.storyboardc/wVu-Sq-jaL-view-FzR-Pw-CqP.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  7822 bytes for ./Payload/Chamta.app/Register.storyboardc/wVu-Sq-jaL-view-FzR-Pw-CqP.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Register.storyboardc/Info.plist ... 
+579 bytes for ./Payload/Chamta.app/Register.storyboardc/Info.plist
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/IRANSansMobile_Black.ttf ... 
+2018-02-20 17:15:19 +0000  91856 bytes for ./Payload/Chamta.app/IRANSansMobile_Black.ttf
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Profile.storyboardc/UIViewController-Bzk-92-cPt.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  761 bytes for ./Payload/Chamta.app/Profile.storyboardc/UIViewController-Bzk-92-cPt.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/UIViewController-Bzk-92-cPt.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  761 bytes for ./Payload/Chamta.app/Profile.storyboardc/UIViewController-Bzk-92-cPt.nib/runtime.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/CR4-a2-iJ9-view-rou-Zy-Dy5.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  7866 bytes for ./Payload/Chamta.app/Profile.storyboardc/CR4-a2-iJ9-view-rou-Zy-Dy5.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/CR4-a2-iJ9-view-rou-Zy-Dy5.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  8007 bytes for ./Payload/Chamta.app/Profile.storyboardc/CR4-a2-iJ9-view-rou-Zy-Dy5.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Profile.storyboardc/UIViewController-s4S-tU-dVs.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  761 bytes for ./Payload/Chamta.app/Profile.storyboardc/UIViewController-s4S-tU-dVs.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/UIViewController-s4S-tU-dVs.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  761 bytes for ./Payload/Chamta.app/Profile.storyboardc/UIViewController-s4S-tU-dVs.nib/runtime.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/NVm-HL-Xff-view-hMx-Zh-L3b.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  4140 bytes for ./Payload/Chamta.app/Profile.storyboardc/NVm-HL-Xff-view-hMx-Zh-L3b.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/NVm-HL-Xff-view-hMx-Zh-L3b.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  4277 bytes for ./Payload/Chamta.app/Profile.storyboardc/NVm-HL-Xff-view-hMx-Zh-L3b.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-NVm-HL-Xff.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  988 bytes for ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-NVm-HL-Xff.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-NVm-HL-Xff.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  988 bytes for ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-NVm-HL-Xff.nib/runtime.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/Rdk-YB-ICc-view-tsd-bh-5s9.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  7187 bytes for ./Payload/Chamta.app/Profile.storyboardc/Rdk-YB-ICc-view-tsd-bh-5s9.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/Rdk-YB-ICc-view-tsd-bh-5s9.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  7320 bytes for ./Payload/Chamta.app/Profile.storyboardc/Rdk-YB-ICc-view-tsd-bh-5s9.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Profile.storyboardc/profileVC.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  1961 bytes for ./Payload/Chamta.app/Profile.storyboardc/profileVC.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/profileVC.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  1961 bytes for ./Payload/Chamta.app/Profile.storyboardc/profileVC.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-CR4-a2-iJ9.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  1726 bytes for ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-CR4-a2-iJ9.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-CR4-a2-iJ9.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  1726 bytes for ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-CR4-a2-iJ9.nib/runtime.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-Rdk-YB-ICc.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  1373 bytes for ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-Rdk-YB-ICc.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-Rdk-YB-ICc.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  1373 bytes for ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-Rdk-YB-ICc.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Profile.storyboardc/UINavigationController-UXu-1g-Psv.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  2724 bytes for ./Payload/Chamta.app/Profile.storyboardc/UINavigationController-UXu-1g-Psv.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/UINavigationController-UXu-1g-Psv.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  2727 bytes for ./Payload/Chamta.app/Profile.storyboardc/UINavigationController-UXu-1g-Psv.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-igQ-EN-zGQ.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  1579 bytes for ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-igQ-EN-zGQ.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-igQ-EN-zGQ.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  1579 bytes for ./Payload/Chamta.app/Profile.storyboardc/UITableViewController-igQ-EN-zGQ.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Profile.storyboardc/UZD-7f-0rd-view-E8B-IC-WKI.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  10299 bytes for ./Payload/Chamta.app/Profile.storyboardc/UZD-7f-0rd-view-E8B-IC-WKI.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/UZD-7f-0rd-view-E8B-IC-WKI.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  10408 bytes for ./Payload/Chamta.app/Profile.storyboardc/UZD-7f-0rd-view-E8B-IC-WKI.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Profile.storyboardc/Info.plist ... 
+949 bytes for ./Payload/Chamta.app/Profile.storyboardc/Info.plist
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/Profile.storyboardc/igQ-EN-zGQ-view-0fW-21-gU9.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:19 +0000  7374 bytes for ./Payload/Chamta.app/Profile.storyboardc/igQ-EN-zGQ-view-0fW-21-gU9.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Profile.storyboardc/igQ-EN-zGQ-view-0fW-21-gU9.nib/runtime.nib ... 
+2018-02-20 17:15:19 +0000  7493 bytes for ./Payload/Chamta.app/Profile.storyboardc/igQ-EN-zGQ-view-0fW-21-gU9.nib/runtime.nib
+2018-02-20 17:15:19 +0000  copying file ./Payload/Chamta.app/AppIcon20x20@2x.png ... 
+2018-02-20 17:15:19 +0000  3066 bytes for ./Payload/Chamta.app/AppIcon20x20@2x.png
+copying file ./Payload/Chamta.app/Chamta ... 
+2018-02-20 17:15:19 +0000  3687360 bytes for ./Payload/Chamta.app/Chamta
+copying file ./Payload/Chamta.app/FontAwesome.otf ... 
+2018-02-20 17:15:20 +0000  134808 bytes for ./Payload/Chamta.app/FontAwesome.otf
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/IRANSansMobile_Medium.ttf ... 
+2018-02-20 17:15:20 +0000  92928 bytes for ./Payload/Chamta.app/IRANSansMobile_Medium.ttf
+copying file ./Payload/Chamta.app/AppIcon20x20@3x.png ... 
+2018-02-20 17:15:20 +0000  6056 bytes for ./Payload/Chamta.app/AppIcon20x20@3x.png
+copying file ./Payload/Chamta.app/Sale.storyboardc/UIViewController-K70-dj-bx1.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/Sale.storyboardc/UIViewController-K70-dj-bx1.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Sale.storyboardc/UINavigationController-9z5-SX-iqC.nib ... 
+2018-02-20 17:15:20 +0000  2903 bytes for ./Payload/Chamta.app/Sale.storyboardc/UINavigationController-9z5-SX-iqC.nib
+copying file ./Payload/Chamta.app/Sale.storyboardc/lfU-HO-U8v-view-itF-8s-a1o.nib ... 
+2018-02-20 17:15:20 +0000  6776 bytes for ./Payload/Chamta.app/Sale.storyboardc/lfU-HO-U8v-view-itF-8s-a1o.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Sale.storyboardc/UIViewController-snR-kc-r8w.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/Sale.storyboardc/UIViewController-snR-kc-r8w.nib
+copying file ./Payload/Chamta.app/Sale.storyboardc/UIViewController-cwX-BK-89K.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/Sale.storyboardc/UIViewController-cwX-BK-89K.nib
+copying file ./Payload/Chamta.app/Sale.storyboardc/Info.plist ... 
+2018-02-20 17:15:20 +0000  740 bytes for ./Payload/Chamta.app/Sale.storyboardc/Info.plist
+copying file ./Payload/Chamta.app/AppIcon60x60@2x.png ... 
+2018-02-20 17:15:20 +0000  20358 bytes for ./Payload/Chamta.app/AppIcon60x60@2x.png
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/IRANSansMobile_UltraLight.ttf ... 
+2018-02-20 17:15:20 +0000  95988 bytes for ./Payload/Chamta.app/IRANSansMobile_UltraLight.ttf
+copying file ./Payload/Chamta.app/AppIcon29x29@2x.png ... 
+2018-02-20 17:15:20 +0000  5746 bytes for ./Payload/Chamta.app/AppIcon29x29@2x.png
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/SideMenu.storyboardc/sideMenu.nib ... 
+2018-02-20 17:15:20 +0000  2682 bytes for ./Payload/Chamta.app/SideMenu.storyboardc/sideMenu.nib
+copying file ./Payload/Chamta.app/SideMenu.storyboardc/UIViewController-Gkd-Uy-GRb.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/SideMenu.storyboardc/UIViewController-Gkd-Uy-GRb.nib
+copying file ./Payload/Chamta.app/SideMenu.storyboardc/UIViewController-pig-ds-fn2.nib ... 
+761 bytes for ./Payload/Chamta.app/SideMenu.storyboardc/UIViewController-pig-ds-fn2.nib
+copying file ./Payload/Chamta.app/SideMenu.storyboardc/UIViewController-m0a-Ci-VU2.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/SideMenu.storyboardc/UIViewController-m0a-Ci-VU2.nib
+copying file ./Payload/Chamta.app/SideMenu.storyboardc/UIViewController-MXU-KO-n5O.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/SideMenu.storyboardc/UIViewController-MXU-KO-n5O.nib
+copying file ./Payload/Chamta.app/SideMenu.storyboardc/UIViewController-qpb-hM-3OY.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/SideMenu.storyboardc/UIViewController-qpb-hM-3OY.nib
+copying file ./Payload/Chamta.app/SideMenu.storyboardc/Info.plist ... 
+2018-02-20 17:15:20 +0000  868 bytes for ./Payload/Chamta.app/SideMenu.storyboardc/Info.plist
+copying file ./Payload/Chamta.app/SideMenu.storyboardc/JyK-0u-yCh-view-6Vr-Sp-Isq.nib ... 
+2018-02-20 17:15:20 +0000  10762 bytes for ./Payload/Chamta.app/SideMenu.storyboardc/JyK-0u-yCh-view-6Vr-Sp-Isq.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/AppIcon40x40@3x.png ... 
+2018-02-20 17:15:20 +0000  21046 bytes for ./Payload/Chamta.app/AppIcon40x40@3x.png
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/AppIcon40x40@2x.png ... 
+2018-02-20 17:15:20 +0000  9521 bytes for ./Payload/Chamta.app/AppIcon40x40@2x.png
+copying file ./Payload/Chamta.app/AppIcon29x29@3x.png ... 
+2018-02-20 17:15:20 +0000  11582 bytes for ./Payload/Chamta.app/AppIcon29x29@3x.png
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/AppIcon60x60@3x.png ... 
+2018-02-20 17:15:20 +0000  42268 bytes for ./Payload/Chamta.app/AppIcon60x60@3x.png
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Base.lproj/Main.storyboardc/CatVC.nib ... 
+2018-02-20 17:15:20 +0000  877 bytes for ./Payload/Chamta.app/Base.lproj/Main.storyboardc/CatVC.nib
+copying file ./Payload/Chamta.app/Base.lproj/Main.storyboardc/profileVC.nib ... 
+2018-02-20 17:15:20 +0000  881 bytes for ./Payload/Chamta.app/Base.lproj/Main.storyboardc/profileVC.nib
+copying file ./Payload/Chamta.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-02-20 17:15:20 +0000  474 bytes for ./Payload/Chamta.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Chamta.app/Base.lproj/Main.storyboardc/mainTabbarVC.nib ... 
+2018-02-20 17:15:20 +0000  2264 bytes for ./Payload/Chamta.app/Base.lproj/Main.storyboardc/mainTabbarVC.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  2330 bytes for ./Payload/Chamta.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  2455 bytes for ./Payload/Chamta.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+copying file ./Payload/Chamta.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  832 bytes for ./Payload/Chamta.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  832 bytes for ./Payload/Chamta.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+copying file ./Payload/Chamta.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-02-20 17:15:20 +0000  258 bytes for ./Payload/Chamta.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Chamta.app/archived-expanded-entitlements.xcent ... 
+2018-02-20 17:15:20 +0000  246 bytes for ./Payload/Chamta.app/archived-expanded-entitlements.xcent
+copying file ./Payload/Chamta.app/Assets.car ... 
+2018-02-20 17:15:20 +0000  5467400 bytes for ./Payload/Chamta.app/Assets.car
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/fontawesome-webfont.ttf ... 
+2018-02-20 17:15:20 +0000  142072 bytes for ./Payload/Chamta.app/fontawesome-webfont.ttf
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/LawsSB.storyboardc/UINavigationController-vm1-6w-Ykh.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  2016 bytes for ./Payload/Chamta.app/LawsSB.storyboardc/UINavigationController-vm1-6w-Ykh.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/LawsSB.storyboardc/UINavigationController-vm1-6w-Ykh.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  2016 bytes for ./Payload/Chamta.app/LawsSB.storyboardc/UINavigationController-vm1-6w-Ykh.nib/runtime.nib
+copying file ./Payload/Chamta.app/LawsSB.storyboardc/Info.plist ... 
+2018-02-20 17:15:20 +0000  276 bytes for ./Payload/Chamta.app/LawsSB.storyboardc/Info.plist
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/LawsSB.storyboardc/fI6-Gk-TRP-view-ApQ-hq-xhY.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  3718 bytes for ./Payload/Chamta.app/LawsSB.storyboardc/fI6-Gk-TRP-view-ApQ-hq-xhY.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/LawsSB.storyboardc/fI6-Gk-TRP-view-ApQ-hq-xhY.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  3835 bytes for ./Payload/Chamta.app/LawsSB.storyboardc/fI6-Gk-TRP-view-ApQ-hq-xhY.nib/runtime.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/IRANSansMobile.ttf ... 
+2018-02-20 17:15:20 +0000  95008 bytes for ./Payload/Chamta.app/IRANSansMobile.ttf
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/AboutUs.storyboardc/YRU-U5-3Rx-view-KbP-8V-AnB.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  5169 bytes for ./Payload/Chamta.app/AboutUs.storyboardc/YRU-U5-3Rx-view-KbP-8V-AnB.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/AboutUs.storyboardc/YRU-U5-3Rx-view-KbP-8V-AnB.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  5287 bytes for ./Payload/Chamta.app/AboutUs.storyboardc/YRU-U5-3Rx-view-KbP-8V-AnB.nib/runtime.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/AboutUs.storyboardc/aboutUs.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  1419 bytes for ./Payload/Chamta.app/AboutUs.storyboardc/aboutUs.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/AboutUs.storyboardc/aboutUs.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  1419 bytes for ./Payload/Chamta.app/AboutUs.storyboardc/aboutUs.nib/runtime.nib
+copying file ./Payload/Chamta.app/AboutUs.storyboardc/UINavigationController-OEL-qX-bBq.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  2125 bytes for ./Payload/Chamta.app/AboutUs.storyboardc/UINavigationController-OEL-qX-bBq.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/AboutUs.storyboardc/UINavigationController-OEL-qX-bBq.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  2125 bytes for ./Payload/Chamta.app/AboutUs.storyboardc/UINavigationController-OEL-qX-bBq.nib/runtime.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/AboutUs.storyboardc/Info.plist ... 
+296 bytes for ./Payload/Chamta.app/AboutUs.storyboardc/Info.plist
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Products.storyboardc/UIViewController-Xzg-vc-d1c.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/Products.storyboardc/UIViewController-Xzg-vc-d1c.nib
+copying file ./Payload/Chamta.app/Products.storyboardc/UINavigationController-zRe-t9-EVj.nib ... 
+2018-02-20 17:15:20 +0000  2995 bytes for ./Payload/Chamta.app/Products.storyboardc/UINavigationController-zRe-t9-EVj.nib
+copying file ./Payload/Chamta.app/Products.storyboardc/productVC.nib ... 
+2018-02-20 17:15:20 +0000  2221 bytes for ./Payload/Chamta.app/Products.storyboardc/productVC.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Products.storyboardc/UIViewController-HqV-IM-sEr.nib ... 
+761 bytes for ./Payload/Chamta.app/Products.storyboardc/UIViewController-HqV-IM-sEr.nib
+copying file ./Payload/Chamta.app/Products.storyboardc/5PI-7H-KlE-view-ZZk-bm-UNs.nib ... 
+2018-02-20 17:15:20 +0000  6769 bytes for ./Payload/Chamta.app/Products.storyboardc/5PI-7H-KlE-view-ZZk-bm-UNs.nib
+copying file ./Payload/Chamta.app/Products.storyboardc/UIViewController-Uzi-ay-HdQ.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/Products.storyboardc/UIViewController-Uzi-ay-HdQ.nib
+copying file ./Payload/Chamta.app/Products.storyboardc/Info.plist ... 
+2018-02-20 17:15:20 +0000  766 bytes for ./Payload/Chamta.app/Products.storyboardc/Info.plist
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Pishnehad.storyboardc/bLC-fc-FPQ-view-DQA-XH-ebp.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  7270 bytes for ./Payload/Chamta.app/Pishnehad.storyboardc/bLC-fc-FPQ-view-DQA-XH-ebp.nib/objects-11.0+.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Pishnehad.storyboardc/bLC-fc-FPQ-view-DQA-XH-ebp.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  7393 bytes for ./Payload/Chamta.app/Pishnehad.storyboardc/bLC-fc-FPQ-view-DQA-XH-ebp.nib/runtime.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Pishnehad.storyboardc/Info.plist ... 
+276 bytes for ./Payload/Chamta.app/Pishnehad.storyboardc/Info.plist
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Pishnehad.storyboardc/UINavigationController-zfO-A4-Geg.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  1990 bytes for ./Payload/Chamta.app/Pishnehad.storyboardc/UINavigationController-zfO-A4-Geg.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/Pishnehad.storyboardc/UINavigationController-zfO-A4-Geg.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  1990 bytes for ./Payload/Chamta.app/Pishnehad.storyboardc/UINavigationController-zfO-A4-Geg.nib/runtime.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/ShoppingList.storyboardc/UIViewController-nX1-Rt-S0G.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  979 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/UIViewController-nX1-Rt-S0G.nib/objects-11.0+.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/ShoppingList.storyboardc/UIViewController-nX1-Rt-S0G.nib/runtime.nib ... 
+979 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/UIViewController-nX1-Rt-S0G.nib/runtime.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/ShoppingList.storyboardc/nX1-Rt-S0G-view-cI4-Kx-PXc.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  18450 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/nX1-Rt-S0G-view-cI4-Kx-PXc.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/ShoppingList.storyboardc/nX1-Rt-S0G-view-cI4-Kx-PXc.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  18572 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/nX1-Rt-S0G-view-cI4-Kx-PXc.nib/runtime.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/ShoppingList.storyboardc/UIViewController-TRv-aU-Lto.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/UIViewController-TRv-aU-Lto.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/ShoppingList.storyboardc/UIViewController-TRv-aU-Lto.nib/runtime.nib ... 
+761 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/UIViewController-TRv-aU-Lto.nib/runtime.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/ShoppingList.storyboardc/icL-kO-Cdr-view-dy5-TD-Ed5.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  9484 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/icL-kO-Cdr-view-dy5-TD-Ed5.nib/objects-11.0+.nib
+copying file ./Payload/Chamta.app/ShoppingList.storyboardc/icL-kO-Cdr-view-dy5-TD-Ed5.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  9597 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/icL-kO-Cdr-view-dy5-TD-Ed5.nib/runtime.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/ShoppingList.storyboardc/UINavigationController-e4y-ii-vWV.nib/objects-11.0+.nib ... 
+2018-02-20 17:15:20 +0000  2597 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/UINavigationController-e4y-ii-vWV.nib/objects-11.0+.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/ShoppingList.storyboardc/UINavigationController-e4y-ii-vWV.nib/runtime.nib ... 
+2018-02-20 17:15:20 +0000  2601 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/UINavigationController-e4y-ii-vWV.nib/runtime.nib
+copying file ./Payload/Chamta.app/ShoppingList.storyboardc/Info.plist ... 
+2018-02-20 17:15:20 +0000  570 bytes for ./Payload/Chamta.app/ShoppingList.storyboardc/Info.plist
+copying file ./Payload/Chamta.app/Category.storyboardc/UIViewController-cu5-q0-pOF.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/Category.storyboardc/UIViewController-cu5-q0-pOF.nib
+copying file ./Payload/Chamta.app/Category.storyboardc/XGU-Nn-Tqu-view-1HT-a3-VvZ.nib ... 
+2018-02-20 17:15:20 +0000  5460 bytes for ./Payload/Chamta.app/Category.storyboardc/XGU-Nn-Tqu-view-1HT-a3-VvZ.nib
+copying file ./Payload/Chamta.app/Category.storyboardc/UICollectionViewController-XGU-Nn-Tqu.nib ... 
+2018-02-20 17:15:20 +0000  1424 bytes for ./Payload/Chamta.app/Category.storyboardc/UICollectionViewController-XGU-Nn-Tqu.nib
+copying file ./Payload/Chamta.app/Category.storyboardc/UIViewController-YYn-qp-w95.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/Category.storyboardc/UIViewController-YYn-qp-w95.nib
+copying file ./Payload/Chamta.app/Category.storyboardc/UIViewController-aaQ-p1-v8h.nib ... 
+2018-02-20 17:15:20 +0000  761 bytes for ./Payload/Chamta.app/Category.storyboardc/UIViewController-aaQ-p1-v8h.nib
+copying file ./Payload/Chamta.app/Category.storyboardc/UINavigationController-ewL-gH-9ZD.nib ... 
+2018-02-20 17:15:20 +0000  3231 bytes for ./Payload/Chamta.app/Category.storyboardc/UINavigationController-ewL-gH-9ZD.nib
+copying file ./Payload/Chamta.app/Category.storyboardc/uk7-uR-1HI-view-rDi-kF-WYH.nib ... 
+2018-02-20 17:15:20 +0000  5298 bytes for ./Payload/Chamta.app/Category.storyboardc/uk7-uR-1HI-view-rDi-kF-WYH.nib
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Category.storyboardc/Info.plist ... 
+821 bytes for ./Payload/Chamta.app/Category.storyboardc/Info.plist
+2018-02-20 17:15:20 +0000  copying file ./Payload/Chamta.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-02-20 17:15:20 +0000  209264 bytes for ./Payload/Chamta.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/Chamta.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-02-20 17:15:20 +0000  259344 bytes for ./Payload/Chamta.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/Chamta.app/Frameworks/libswiftCore.dylib ... 
+2018-02-20 17:15:21 +0000  21080000 bytes for ./Payload/Chamta.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/Chamta.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-02-20 17:15:21 +0000  578160 bytes for ./Payload/Chamta.app/Frameworks/libswiftCoreGraphics.dylib
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/AlamofireImage.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Chamta.app/Frameworks/AlamofireImage.framework/_CodeSignature/CodeResources
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/AlamofireImage.framework/AlamofireImage ... 
+2018-02-20 17:15:21 +0000  1283904 bytes for ./Payload/Chamta.app/Frameworks/AlamofireImage.framework/AlamofireImage
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/AlamofireImage.framework/Info.plist ... 
+749 bytes for ./Payload/Chamta.app/Frameworks/AlamofireImage.framework/Info.plist
+copying file ./Payload/Chamta.app/Frameworks/libswiftUIKit.dylib ... 
+2018-02-20 17:15:21 +0000  361904 bytes for ./Payload/Chamta.app/Frameworks/libswiftUIKit.dylib
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/DLRadioButton.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Chamta.app/Frameworks/DLRadioButton.framework/_CodeSignature/CodeResources
+copying file ./Payload/Chamta.app/Frameworks/DLRadioButton.framework/DLRadioButton ... 
+2018-02-20 17:15:21 +0000  234272 bytes for ./Payload/Chamta.app/Frameworks/DLRadioButton.framework/DLRadioButton
+copying file ./Payload/Chamta.app/Frameworks/DLRadioButton.framework/Info.plist ... 
+2018-02-20 17:15:21 +0000  748 bytes for ./Payload/Chamta.app/Frameworks/DLRadioButton.framework/Info.plist
+copying file ./Payload/Chamta.app/Frameworks/libswiftMetal.dylib ... 
+2018-02-20 17:15:21 +0000  251664 bytes for ./Payload/Chamta.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/Chamta.app/Frameworks/libswiftDispatch.dylib ... 
+2018-02-20 17:15:21 +0000  1009664 bytes for ./Payload/Chamta.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/Chamta.app/Frameworks/libswiftos.dylib ... 
+2018-02-20 17:15:21 +0000  249312 bytes for ./Payload/Chamta.app/Frameworks/libswiftos.dylib
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-02-20 17:15:21 +0000  208704 bytes for ./Payload/Chamta.app/Frameworks/libswiftCoreFoundation.dylib
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:21 +0000  3220 bytes for ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/_CodeSignature/CodeResources
+copying file ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/ImageSlideshow ... 
+2018-02-20 17:15:21 +0000  790112 bytes for ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/ImageSlideshow
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/ic_cross_white@3x.png ... 
+345 bytes for ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/ic_cross_white@3x.png
+copying file ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/ic_cross_white@2x.png ... 
+2018-02-20 17:15:21 +0000  271 bytes for ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/ic_cross_white@2x.png
+copying file ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/Info.plist ... 
+2018-02-20 17:15:21 +0000  724 bytes for ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/ImageSlideshow.bundle/Info.plist
+copying file ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/Info.plist ... 
+749 bytes for ./Payload/Chamta.app/Frameworks/ImageSlideshow.framework/Info.plist
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/libswiftDarwin.dylib ... 
+2018-02-20 17:15:21 +0000  303472 bytes for ./Payload/Chamta.app/Frameworks/libswiftDarwin.dylib
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Chamta.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources
+copying file ./Payload/Chamta.app/Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac ... 
+2018-02-20 17:15:21 +0000  200736 bytes for ./Payload/Chamta.app/Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/GoogleToolboxForMac.framework/Info.plist ... 
+761 bytes for ./Payload/Chamta.app/Frameworks/GoogleToolboxForMac.framework/Info.plist
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:21 +0000  2202 bytes for ./Payload/Chamta.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Payload/Chamta.app/Frameworks/nanopb.framework/nanopb ... 
+2018-02-20 17:15:21 +0000  232080 bytes for ./Payload/Chamta.app/Frameworks/nanopb.framework/nanopb
+copying file ./Payload/Chamta.app/Frameworks/nanopb.framework/Info.plist ... 
+2018-02-20 17:15:21 +0000  733 bytes for ./Payload/Chamta.app/Frameworks/nanopb.framework/Info.plist
+copying file ./Payload/Chamta.app/Frameworks/SearchTextField.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:21 +0000  2202 bytes for ./Payload/Chamta.app/Frameworks/SearchTextField.framework/_CodeSignature/CodeResources
+copying file ./Payload/Chamta.app/Frameworks/SearchTextField.framework/SearchTextField ... 
+2018-02-20 17:15:21 +0000  564416 bytes for ./Payload/Chamta.app/Frameworks/SearchTextField.framework/SearchTextField
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/SearchTextField.framework/Info.plist ... 
+753 bytes for ./Payload/Chamta.app/Frameworks/SearchTextField.framework/Info.plist
+copying file ./Payload/Chamta.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-02-20 17:15:21 +0000  212624 bytes for ./Payload/Chamta.app/Frameworks/libswiftQuartzCore.dylib
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:21 +0000  5102 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png ... 
+2018-02-20 17:15:21 +0000  1786 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png
+copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png ... 
+2018-02-20 17:15:21 +0000  2164 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png
+copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png ... 
+2018-02-20 17:15:21 +0000  1769 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png
+copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png ... 
+2018-02-20 17:15:21 +0000  1844 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png
+copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png ... 
+2018-02-20 17:15:21 +0000  1815 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png
+copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png ... 
+2018-02-20 17:15:21 +0000  2177 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png
+copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png ... 
+2018-02-20 17:15:21 +0000  1764 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png
+copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png ... 
+2018-02-20 17:15:21 +0000  1793 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png
+copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift ... 
+2018-02-20 17:15:21 +0000  1576560 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift
+copying file ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/Info.plist ... 
+2018-02-20 17:15:21 +0000  767 bytes for ./Payload/Chamta.app/Frameworks/IQKeyboardManagerSwift.framework/Info.plist
+copying file ./Payload/Chamta.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:21 +0000  2202 bytes for ./Payload/Chamta.app/Frameworks/MBProgressHUD.framework/_CodeSignature/CodeResources
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/MBProgressHUD.framework/MBProgressHUD ... 
+2018-02-20 17:15:21 +0000  336224 bytes for ./Payload/Chamta.app/Frameworks/MBProgressHUD.framework/MBProgressHUD
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/MBProgressHUD.framework/Info.plist ... 
+747 bytes for ./Payload/Chamta.app/Frameworks/MBProgressHUD.framework/Info.plist
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:21 +0000  2202 bytes for ./Payload/Chamta.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Payload/Chamta.app/Frameworks/Alamofire.framework/Alamofire ... 
+2018-02-20 17:15:21 +0000  2689760 bytes for ./Payload/Chamta.app/Frameworks/Alamofire.framework/Alamofire
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/Alamofire.framework/Info.plist ... 
+739 bytes for ./Payload/Chamta.app/Frameworks/Alamofire.framework/Info.plist
+copying file ./Payload/Chamta.app/Frameworks/HKProgressHUD.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/Chamta.app/Frameworks/HKProgressHUD.framework/_CodeSignature/CodeResources
+copying file ./Payload/Chamta.app/Frameworks/HKProgressHUD.framework/HKProgressHUD ... 
+2018-02-20 17:15:21 +0000  616576 bytes for ./Payload/Chamta.app/Frameworks/HKProgressHUD.framework/HKProgressHUD
+copying file ./Payload/Chamta.app/Frameworks/HKProgressHUD.framework/Info.plist ... 
+2018-02-20 17:15:21 +0000  747 bytes for ./Payload/Chamta.app/Frameworks/HKProgressHUD.framework/Info.plist
+copying file ./Payload/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:21 +0000  2202 bytes for ./Payload/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework/_CodeSignature/CodeResources
+copying file ./Payload/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework/SkyFloatingLabelTextField ... 
+2018-02-20 17:15:21 +0000  580864 bytes for ./Payload/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework/SkyFloatingLabelTextField
+2018-02-20 17:15:21 +0000  copying file ./Payload/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework/Info.plist ... 
+773 bytes for ./Payload/Chamta.app/Frameworks/SkyFloatingLabelTextField.framework/Info.plist
+copying file ./Payload/Chamta.app/Frameworks/libswiftFoundation.dylib ... 
+2018-02-20 17:15:22 +0000  8413696 bytes for ./Payload/Chamta.app/Frameworks/libswiftFoundation.dylib
+2018-02-20 17:15:22 +0000  copying file ./Payload/Chamta.app/Frameworks/SideMenu.framework/_CodeSignature/CodeResources ... 
+2018-02-20 17:15:22 +0000  2202 bytes for ./Payload/Chamta.app/Frameworks/SideMenu.framework/_CodeSignature/CodeResources
+copying file ./Payload/Chamta.app/Frameworks/SideMenu.framework/SideMenu ... 
+2018-02-20 17:15:22 +0000  817984 bytes for ./Payload/Chamta.app/Frameworks/SideMenu.framework/SideMenu
+copying file ./Payload/Chamta.app/Frameworks/SideMenu.framework/Info.plist ... 
+2018-02-20 17:15:22 +0000  737 bytes for ./Payload/Chamta.app/Frameworks/SideMenu.framework/Info.plist
+copying file ./Payload/Chamta.app/IRANSansMobile_Bold.ttf ... 
+2018-02-20 17:15:22 +0000  94136 bytes for ./Payload/Chamta.app/IRANSansMobile_Bold.ttf
+2018-02-20 17:15:22 +0000  copying file ./Payload/Chamta.app/embedded.mobileprovision ... 
+2018-02-20 17:15:22 +0000  9667 bytes for ./Payload/Chamta.app/embedded.mobileprovision
+copying file ./Payload/Chamta.app/MobileFonts.png ... 
+2018-02-20 17:15:22 +0000  110223 bytes for ./Payload/Chamta.app/MobileFonts.png
+copying file ./Payload/Chamta.app/IRANSansMobile_Light.ttf ... 
+2018-02-20 17:15:22 +0000  97588 bytes for ./Payload/Chamta.app/IRANSansMobile_Light.ttf
+2018-02-20 17:15:22 +0000  copying file ./Payload/Chamta.app/Info.plist ... 
+2053 bytes for ./Payload/Chamta.app/Info.plist
+copying file ./Payload/Chamta.app/PkgInfo ... 
+2018-02-20 17:15:22 +0000  8 bytes for ./Payload/Chamta.app/PkgInfo
+2018-02-20 17:15:22 +0000  
+2018-02-20 17:15:22 +0000  2018-02-20 17:15:22 +0000  /usr/bin/ditto exited with 0
+2018-02-20 17:15:22 +0000  
+
+2018-02-20 17:15:22 +0000  Processing step: IDEDistributionCreateManifestStep

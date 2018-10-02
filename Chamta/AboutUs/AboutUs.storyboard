@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OEL-qX-bBq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IRANSansMobile.ttf">
+            <string>IRANSansMobile</string>
+        </array>
+        <array key="IRANSansMobile_Bold.ttf">
+            <string>IRANSansMobile-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--درباره ما -->
+        <scene sceneID="1lA-Dz-Zjv">
+            <objects>
+                <viewController storyboardIdentifier="aboutUs" id="YRU-U5-3Rx" customClass="AboutUs" customModule="Chamta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KbP-8V-AnB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="درباره چمتا:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jt-s9-g6M">
+                                <rect key="frame" x="281" y="66" width="78" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Ygr-hd-7LN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANSansMobile-Bold" family="IRANSansMobile" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOH-wD-KNB">
+                                <rect key="frame" x="16" y="99" width="343" height="333.5"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GhH-5v-DER">
+                                <rect key="frame" x="212.5" y="542" width="146.5" height="60"/>
+                                <state key="normal" image="Telegram"/>
+                                <connections>
+                                    <action selector="telegramBtnClicked:" destination="YRU-U5-3Rx" eventType="touchUpInside" id="zpV-A8-tYg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iR4-bv-0oq">
+                                <rect key="frame" x="16" y="542" width="146" height="60"/>
+                                <state key="normal" image="Instagram"/>
+                                <connections>
+                                    <action selector="instaBtnClicked:" destination="YRU-U5-3Rx" eventType="touchUpInside" id="Ym0-Ht-BXU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="آدرس" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="j9z-Ui-jNJ">
+                                <rect key="frame" x="170" y="563" width="34.5" height="19"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobile" family="IRANSansMobile" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9jt-s9-g6M" firstAttribute="top" secondItem="caS-fb-ygH" secondAttribute="top" constant="2" id="1c8-Zk-yNj"/>
+                            <constraint firstItem="caS-fb-ygH" firstAttribute="trailing" secondItem="WOH-wD-KNB" secondAttribute="trailing" constant="16" id="9Qi-O0-BF8"/>
+                            <constraint firstItem="WOH-wD-KNB" firstAttribute="leading" secondItem="caS-fb-ygH" secondAttribute="leading" constant="16" id="AfA-vQ-fc7"/>
+                            <constraint firstItem="j9z-Ui-jNJ" firstAttribute="centerX" secondItem="KbP-8V-AnB" secondAttribute="centerX" id="JpC-ty-zdh"/>
+                            <constraint firstItem="caS-fb-ygH" firstAttribute="trailing" secondItem="9jt-s9-g6M" secondAttribute="trailing" constant="16" id="O8o-Aw-gQq"/>
+                            <constraint firstItem="caS-fb-ygH" firstAttribute="bottom" secondItem="GhH-5v-DER" secondAttribute="bottom" constant="16" id="PUS-RY-FAi"/>
+                            <constraint firstItem="GhH-5v-DER" firstAttribute="centerY" secondItem="iR4-bv-0oq" secondAttribute="centerY" id="Qz1-za-S1t"/>
+                            <constraint firstItem="GhH-5v-DER" firstAttribute="leading" secondItem="j9z-Ui-jNJ" secondAttribute="trailing" constant="8" id="VV2-sX-Kay"/>
+                            <constraint firstItem="GhH-5v-DER" firstAttribute="trailing" secondItem="WOH-wD-KNB" secondAttribute="trailing" id="hed-Xj-NXd"/>
+                            <constraint firstItem="iR4-bv-0oq" firstAttribute="leading" secondItem="WOH-wD-KNB" secondAttribute="leading" id="iaa-74-Rey"/>
+                            <constraint firstItem="WOH-wD-KNB" firstAttribute="height" secondItem="KbP-8V-AnB" secondAttribute="height" multiplier="0.5" id="ngA-pn-3gf"/>
+                            <constraint firstItem="WOH-wD-KNB" firstAttribute="top" secondItem="9jt-s9-g6M" secondAttribute="bottom" constant="8" id="v8n-4h-Zo9"/>
+                            <constraint firstItem="j9z-Ui-jNJ" firstAttribute="centerY" secondItem="GhH-5v-DER" secondAttribute="centerY" id="vdJ-YV-xYA"/>
+                            <constraint firstItem="j9z-Ui-jNJ" firstAttribute="leading" secondItem="iR4-bv-0oq" secondAttribute="trailing" constant="8" id="wiN-3C-eaY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="caS-fb-ygH"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="درباره ما " id="ViG-Vn-P93">
+                        <barButtonItem key="leftBarButtonItem" image="back" id="opr-Qs-l7R">
+                            <connections>
+                                <action selector="backBtn:" destination="YRU-U5-3Rx" id="yRp-U0-3Vk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="addressLbl" destination="j9z-Ui-jNJ" id="vxy-ts-aXr"/>
+                        <outlet property="lawTextView" destination="WOH-wD-KNB" id="fWi-4P-PnB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QOx-vr-i5t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="78.710644677661179"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="SiE-07-nBi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OEL-qX-bBq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="FTh-DZ-sy0"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qU4-4d-BJS">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YRU-U5-3Rx" kind="relationship" relationship="rootViewController" id="yP3-AX-TAe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ank-Sl-QME" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-470" y="79"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Instagram" width="60" height="60"/>
+        <image name="Telegram" width="60" height="60"/>
+        <image name="back" width="16" height="29"/>
+    </resources>
+</document>
